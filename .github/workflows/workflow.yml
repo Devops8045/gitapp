@@ -10,7 +10,7 @@ on:
 jobs:
     build:
         name: Azure Pipeline
-        runs-on: unbuntu-latest
+        runs-on: windows-latest
         steps:
         - name: Azure Pipelines Action 
           uses: Azure/pipelines@v1
